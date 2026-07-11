@@ -1,0 +1,25 @@
+/* Self-hosted fonts — novaisle atlas. Fraunces (Latin display/numerals) + Noto Serif SC (Chinese display) + Noto Sans SC (body/UI). */
+
+@font-face{
+  font-family:'Fraunces';
+  font-style:normal;
+  font-weight:100 900;
+  font-display:swap;
+  src:url(./Fraunces-var.woff2) format('woff2');
+}
+
+@font-face{
+  font-family:'Noto Serif SC';
+  font-style:normal;
+  font-weight:400 900;
+  font-display:swap;
+  src:url(./NotoSerifSC-var.woff2) format('woff2');
+}
+
+@font-face{
+  font-family:'Noto Sans SC';
+  font-style:normal;
+  font-weight:100 900;
+  font-display:swap;
+  src:url(./NotoSansSC-cjk.woff2) format('woff2');
+}
